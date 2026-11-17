@@ -1,0 +1,4 @@
+# Klipper SAVE_CONFIG and Mainsail backups
+**/printer-[0-9]*_[0-9]*.cfg
+**/config-[0-9]*-[0-9]*.zip
+**/.moonraker.conf.bkp
