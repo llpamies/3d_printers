@@ -1,0 +1,9 @@
+{
+    "from": "User",
+    "inherits": "Voron 2.4 300 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_start_gcode": "M104 S0 ; Stops OrcaSlicer from sending temp waits separately\nM140 S0\nCOND_HOMING\nG90\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature]\n; You can use following code instead if your PRINT_START macro support Chamber and print area bedmesh\n; PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] CHAMBER=[chamber_temperature] PRINT_MIN={first_layer_print_min[0]},{first_layer_print_min[1]} PRINT_MAX={first_layer_print_max[0]},{first_layer_print_max[1]}",
+    "name": "Voron 2.4 300 0.4 nozzle - LLUIS",
+    "printer_settings_id": "Voron 2.4 300 0.4 nozzle - LLUIS",
+    "version": "2.3.1.10"
+}
